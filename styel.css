@@ -1,0 +1,84 @@
+section{
+    margin: 50px;
+}
+
+.choice {
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+}
+
+.choice :hover {
+    cursor:pointer;
+}
+
+.choice img {
+  width: 200px;
+  height: auto; 
+  object-fit: contain;
+  border-radius: 50%;
+}
+.container {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+.res-box2 {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: center;
+}
+
+.res-box1 {
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:15px;
+}
+#player-choice , #computer-choice, #player-score, #computer-score {
+    width: 100px;
+    font-size: 20px;
+    margin: 8px;
+    border-bottom: 2px solid black;
+    padding: 5px;
+
+}
+p {
+    font-size: 20px;
+}
+#btn-box {
+    width: 100px;
+    text-align: center;
+    margin: 0 auto;
+}
+#btn{
+    width: 100px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: white;
+    margin: 50px auto;
+}
+
+button:hover {
+    cursor: pointer;
+}
+#output-box {
+    width: 200px;
+    margin: 10px auto;
+    font-size: 28px;
+    text-align: center;
+ }
+ .win-text {
+    color: green;
+    font-size: 28px;
+ }
+
+ .lose-text {
+    color: red;
+    font-size: 28px;
+ }
